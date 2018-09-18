@@ -9,7 +9,7 @@ public class ConversorTemperatura {
                         "Intente nuevamente.");
             }
         }
-        while (num3 <=-273);
+        while (!(num3 >-273));
         double gradosF = num3*1.8+32;
         JOptionPane.showMessageDialog(null, "La temperatura es ºF " + gradosF);
     }
