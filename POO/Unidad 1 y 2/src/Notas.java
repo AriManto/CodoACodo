@@ -1,4 +1,11 @@
 import java.util.Scanner;
+//Crear un array de 30 posiciones y cargarlo aleatoriamente con números enteros del 1 al 10,
+// y de acuerdo a la nota contenida, mostrar en pantalla cuántos estudiantes pertenecen a cada grupo:
+//• Notas bajas: de 0 a 4
+//• Regulares: mayor de 4 hasta 5
+//• Buenos: mayor a 5 hasta 7
+//• Muy buenos: mayor de 7 y hasta 9
+//• Excelentes: mayor a 9
 
 public class Notas {
     //Atributos de clase
