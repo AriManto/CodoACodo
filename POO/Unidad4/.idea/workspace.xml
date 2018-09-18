@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f42113-3f28-4470-bca5-6728c54ded84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testValidaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/u1_ej.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/u1_ej.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/SwingReversoNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/SwingReversoNombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConversorTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversorTemperatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NombreApellido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NombreApellido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwingReversoNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingReversoNombre.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="Actividad Obligatoria - Unidad 4 - Parte1 - ArielManto.docx" />
@@ -67,9 +59,10 @@
     <session id="-403934314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -99,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NombreApellido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,8 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,13 +155,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537253281032" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -289,7 +282,7 @@
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21225382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21663019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,6 +332,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
     <MESSAGE value="Updates" />
     <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
@@ -395,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NombreApellido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
