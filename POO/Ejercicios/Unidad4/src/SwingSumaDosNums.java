@@ -1,4 +1,5 @@
 import javax.swing.*;
+
 public class SwingSumaDosNums {
     public static void main(String[] args) {
         int num1;
