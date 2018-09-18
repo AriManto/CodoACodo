@@ -33,7 +33,7 @@ public class NumeroMayor {
         double num2 = comparador.leerNumero();
         double num3 = comparador.leerNumero();
         double resultado = comparador.compararTres(num1, num2, num3);
-
+        //Formato de numeros
         System.out.printf("Los números ingresados fueron:\n%4.2f\n%4.2f\n%4.2f\n", num1, num2, num3);
         System.out.println("El mayor es " + resultado);
     }
