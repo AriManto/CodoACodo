@@ -1,4 +1,3 @@
-package herencia;
 //Una empresa de informática quiere llevar un registro de todos sus empleados, para eso ha debemos crear las clases correspondientes en Java , las cuales deben incluir lo siguiente :
 //A) Clase Empleado (Clase padre)
 //	Atributos:

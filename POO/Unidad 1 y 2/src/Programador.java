@@ -1,4 +1,3 @@
-package herencia;
 //2.  Clase Programador (Especialización de Empleado - Clase Hija). Clase que hereda de Empleado todos los atributos y métodos.
 //
 //	Atributos:

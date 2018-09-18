@@ -132,7 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537304190211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537306644933" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Programador">
+  <component name="RunManager" selected="Application.Programador (1)">
     <configuration name="Fecha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fecha" />
       <module name="Unidad 1 y 2" />
@@ -161,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroMayor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumeroMayor" />
+    <configuration name="Programador (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programador" />
       <module name="Unidad 1 y 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumeroMayor" />
       <item itemvalue="Application.RaizYPotencia" />
       <item itemvalue="Application.Fecha" />
       <item itemvalue="Application.Notas" />
       <item itemvalue="Application.Programador" />
+      <item itemvalue="Application.Programador (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Programador (1)" />
         <item itemvalue="Application.Programador" />
         <item itemvalue="Application.Notas" />
         <item itemvalue="Application.Fecha" />
         <item itemvalue="Application.RaizYPotencia" />
-        <item itemvalue="Application.NumeroMayor" />
       </list>
     </recent_temporary>
   </component>
