@@ -2,31 +2,45 @@ import java.util.Scanner;
 
 public class Notas {
     //Atributos de clase
-    private int[] notas = new int[10];
-    public int bajas = 0; //0 a 4
-    public int regulares = 0; //5
-    public int buenas = 0; //6 y 7
-    public int muyBuenas = 0; //8 y 9
-    public int excelentes = 0; //10
-
+    private int[] notas = new int[30];
+    private int bajas = 0; //0 a 4
+    private int regulares = 0; //5
+    private int buenas = 0; //6 y 7
+    private int muyBuenas = 0; //8 y 9
+    private int excelentes = 0; //10
     //Set y Get
-    public void setNotas(int valor, int i) { notas[i] = valor; }
-    public int getNotas(int i) {return this.notas[i];}
-    //
-    public void informarNotas(){
+    private void setNotas(int valor, int i) { notas[i] = valor; }
+    private int getNotas(int i) {return this.notas[i];}
+    //Manipulación de notas
+    private void calificarNotas(){
+        for (int i=0; i<30; i++) {
+            if (this.getNotas(i) == 10) {
+                this.excelentes++;
+            } else if (this.getNotas(i) >= 8) {
+                this.muyBuenas++;
+            } else if (this.getNotas(i) >= 6) {
+                this.buenas++;
+            } else if (this.getNotas(i) == 5) {
+                this.regulares++;
+            } else if (this.getNotas(i) >= 0) {
+                this.bajas++;
+            }
+        }
+    }
+    private void informarNotas(){
         System.out.println("Bajas: "+this.bajas
                 +"\nRegulares: "+this.regulares
                 +"\nBuenas: "+this.buenas
                 +"\nMuy Buenas: "+this.muyBuenas
                 +"\nExcelentes: "+ this.excelentes);
     }
-
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Notas listaNotas = new Notas();
         //Inicio
-        System.out.println("Inserte 10 notas:");
-        for (int i=0;i<10;i++){
+        System.out.println("Inserte 30 notas:");
+        //Ingreso de las notas
+        for (int i=0;i<30;i++){
             do {
                 System.out.println((i + 1)+":");
                 listaNotas.setNotas(teclado.nextInt(),i);
@@ -36,26 +50,10 @@ public class Notas {
                 }
             }
             while (!(listaNotas.getNotas(i) >= 0 && listaNotas.getNotas(i) <= 10));
-            //Anidamiento de if's
-            if (listaNotas.getNotas(i) == 10) {
-                listaNotas.excelentes++;}
-            else if (listaNotas.getNotas(i) >= 8) {
-                listaNotas.muyBuenas++;}
-            else if (listaNotas.getNotas(i) >= 6) {
-                listaNotas.buenas++;}
-            else if (listaNotas.getNotas(i) == 5) {
-                listaNotas.regulares++;}
-            else if (listaNotas.getNotas(i)>=0) {
-                listaNotas.bajas++;
-            }
         }
+        //Fin de ingreso notas
+        listaNotas.calificarNotas();
         listaNotas.informarNotas();
-        //Fuera del bucle
-//        System.out.println("Bajas: "+listaNotas.bajas+"\nRegulares: "+listaNotas.regulares
-//                +"\nBuenas: "+listaNotas.buenas+"\nMuy Buenas: "+listaNotas.muyBuenas
-//                +"\nExcelentes: "+ listaNotas.excelentes);
-//      for (int i = 0; i < 5; i++) {
-//      System.out.println(listaNotas.getNotas(i));
     }
 }
 
