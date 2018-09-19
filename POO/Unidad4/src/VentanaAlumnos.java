@@ -1,3 +1,5 @@
+import sun.plugin2.util.ColorUtil;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -5,25 +7,22 @@ import java.awt.event.ActionListener;
 
 public class VentanaAlumnos extends JFrame {
     public VentanaAlumnos(){
+        //Opciones básicas
         setTitle ("Alumnos");
         setSize (600,400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null); //Centrar la ventana
         agregarComponentes();
     }
-    JPanel panel;
-    GridBagConstraints c = new GridBagConstraints();
     public void agregarComponentes(){
-        panel = new JPanel();
+        JPanel panel = new JPanel();
+        GridBagConstraints c = new GridBagConstraints();
         panel.setLayout(new GridBagLayout());
         this.add (panel);
-//        etiquetas();
-//    }
-//    public void etiquetas(){
         JLabel etNombre = new JLabel ("Nombre:");
         JLabel etApellido = new JLabel ("Apellido:");
-        etNombre.setFont (new Font("Calibri", Font.BOLD, 20));
-        etApellido.setFont (new Font("Calibri", Font.BOLD, 20));
+        etNombre.setFont (new Font("Calibri", Font.BOLD, 26));
+        etApellido.setFont (new Font("Calibri", Font.BOLD, 26));
         //Etiquetas
         //Nombre
         c.anchor = GridBagConstraints.LINE_END; //Alinear a derecha
@@ -53,6 +52,12 @@ public class VentanaAlumnos extends JFrame {
         panel.add(campoApellido,c);
         //Botón
         JButton btnAceptar = new JButton("Aceptar");
+        btnAceptar.setIcon(new ImageIcon("/iconoAlumnos.jpg"));
+        ImageIcon icono= new ImageIcon(getClass().getResource("/iconoAlumnos.jpg"));
+        btnAceptar.setIcon(new ImageIcon(icono.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
+        btnAceptar.setFont(new Font("Impact", Font.PLAIN, 30));
+        btnAceptar.setOpaque(true);
+        btnAceptar.setBackground(new Color(192, 232, 237)); //Color de botón en RGB
         //Listener del botón
         btnAceptar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
@@ -64,11 +69,14 @@ public class VentanaAlumnos extends JFrame {
                 campoApellido.setText("");
             }
         });
+        c.fill = GridBagConstraints.VERTICAL;
+        c.insets = new Insets(30, 0, 30, 0);
         c.anchor = GridBagConstraints.NORTH; //Lo ubica encima
         c.gridwidth = 2; //Ocupa 2 celdas de ancho, en este caso 2 celdas es 100% así
                          //que queda centrado
         c.gridx = 0;
         c.gridy = 2;
         panel.add(btnAceptar,c);
+        validate();
     }
 }

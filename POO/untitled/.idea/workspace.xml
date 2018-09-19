@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d8b46f1-0b3d-418e-926f-924d781a94dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Unidad4/src/Alumnos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unidad4/src/VentanaAlumnos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unidad4/src/Flores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unidad4/src/VentanaFlores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/NombreApellido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/SwingReversoNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/SwingReversoNombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/src/NombreApellido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/src/SwingReversoNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/src/SwingReversoNombre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/src/VentanaAlumnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/src/VentanaAlumnos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventana.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +22,10 @@
     <session id="1998839243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +41,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="82" column="20" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,13 +99,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537321375536" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537325088893" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -156,34 +155,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -195,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

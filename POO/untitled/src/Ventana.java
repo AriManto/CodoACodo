@@ -20,7 +20,7 @@ class Ventana extends JFrame {
    
    public void agregaComponente () {
        this.agregaPanel();
-       this.agregaEtiquetas ();
+       this.agregaEtiquetas();
        this.agregaCampos();
        this.agregarBoton();
                
