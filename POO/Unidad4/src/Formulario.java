@@ -48,6 +48,8 @@ public class Formulario extends JFrame {
         c.gridx = 1;
         c.gridy = 2;
         panel.add(genero,c);
+        //Grupo de radio buttons
+        ButtonGroup grupoGenero = new ButtonGroup();
         JRadioButton botonH = new JRadioButton("H");
         c.insets = new Insets(0,0,0,0);
         c.weighty=1;
@@ -55,11 +57,13 @@ public class Formulario extends JFrame {
         c.gridwidth = 1;
         c.gridx = 2;
         c.gridy = 2;
+        grupoGenero.add(botonH);
         panel.add(botonH,c);
         JRadioButton botonM = new JRadioButton("M");
         c.weightx=0;
         c.gridx = 3;
         c.gridy = 2;
+        grupoGenero.add(botonM);
         panel.add(botonM,c);
         JLabel etAcuerdo = new JLabel("¿Estás de acuerdo?");
         c.gridx = 1;
