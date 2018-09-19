@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579d3f8-61ad-4d25-bd44-aea740a11c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Unidad4/src/Flores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unidad4/src/VentanaFlores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Empleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Fecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Fecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Programador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/out/production/Unidad 1 y 2/Programador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/src/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/src/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/src/Fecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/src/Fecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/src/Programador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/src/Programador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/out/production/Unidad4/VentanaAlumnos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/src/VentanaAlumnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/src/VentanaAlumnos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/Actividad Obligatoria - Unidad 4 - Parte1 - ArielManto.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/Ventana.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,9 +56,9 @@
     <session id="-207420810">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -153,7 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,8 +177,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,8 +235,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,17 +274,10 @@
     <entry file="file://$PROJECT_DIR$/out/production/Unidad3/ProductoCongelado.class" />
     <entry file="file://$PROJECT_DIR$/out/production/Unidad3/Producto.class" />
     <entry file="file://$PROJECT_DIR$/U3_ActividadObligatoria_ArielManto/TestHerencia.java" />
-    <entry file="file://$PROJECT_DIR$/src/TestHerencia.java">
+    <entry file="file://$PROJECT_DIR$/src/ProductoCongelado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Producto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -292,10 +288,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProductoCongelado.java">
+    <entry file="file://$PROJECT_DIR$/src/Producto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestHerencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

@@ -21,9 +21,9 @@ public class Empleado {
     private boolean casado;
     private double salario;
     //Setters y Getters
-    public String getNombre() {return nombre;}
+    private String getNombre() {return nombre;}
     public void setNombre(String nombre) {this.nombre = nombre;}
-    public String getCedula() { return cedula;}
+    private String getCedula() { return cedula;}
     public void setCedula(String cedula) {this.cedula = cedula;}
     public int getEdad() {return edad;}
     public void setEdad(int edad) {

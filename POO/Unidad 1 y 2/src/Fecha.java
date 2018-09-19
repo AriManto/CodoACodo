@@ -19,7 +19,7 @@ public class Fecha {
     public int getDia(){return dia;}
     public int getMes(){return mes;}
     public int getAnio(){return anio;}
-    //Nombre del mes
+    //Cambiar número de mes a String con el nombre
     public String nombreMes(int numMes){
         String mes="";
         switch(numMes){
@@ -50,36 +50,47 @@ public class Fecha {
         }
         return mes;
     }
-
-    public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-        Fecha fecha = new Fecha();
-        do {
+    //Ingreso y validación de datos
+    public void validarDia(){
+            do {
             System.out.println("Ingrese el dia:");
-            fecha.setDia(teclado.nextInt());
-            if (!(fecha.getDia()>0&&fecha.getDia()<31)){
+            this.setDia(leer());
+            if (!(this.getDia()>0&&this.getDia()<32)){
                 System.out.println("El día ingresado no es válido.");
             }
         }
-        while (!(fecha.getDia()>0&&fecha.getDia()<31));
+        while (!(this.getDia()>0&&this.getDia()<32));
+    }
+    public void validarMes(){
         do {
             System.out.println("Ingrese el mes:");
-            fecha.setMes(teclado.nextInt());
-            if (!(fecha.getMes()>0&&fecha.getMes()<=12)){
+            this.setMes(leer());
+            if (!(this.getMes()>0&&this.getMes()<=12)){
                 System.out.println("El mes ingresado no es válido.");
             }
         }
-        while (!(fecha.getMes()>0&&fecha.getMes()<=12));
+        while (!(this.getMes()>0&&this.getMes()<=12));
+    }
+    public void validarAnio(){
         do {
             System.out.println("Ingrese el año:");
-            fecha.setAnio(teclado.nextInt());
-            if(!(fecha.getAnio()>0))
+            this.setAnio(leer());
+            if(!(this.getAnio()>0))
                 System.out.println("El año ingresado no es válido.");
         }
-        while(!(fecha.getAnio()>0));
+        while(!(this.getAnio()>0));
+    }
+    //Leer entero desde teclado
+    public static int leer(){
+        Scanner teclado = new Scanner(System.in);
+        return teclado.nextInt();
+    }
+    public static void main(String[] args) {
+        Fecha fecha = new Fecha();
+        fecha.validarDia();
+        fecha.validarMes();
+        fecha.validarAnio();
         System.out.println(fecha.getDia()+" de "+fecha.nombreMes(fecha.getMes())+" de "
                 +fecha.getAnio());
     }
-
-
 }

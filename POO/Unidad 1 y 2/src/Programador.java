@@ -14,6 +14,11 @@ public class Programador extends Empleado {
     public void setLineasDeCodigoPorHora(int lineasDeCodigoPorHora){this.lineasDeCodigoPorHora = lineasDeCodigoPorHora;}
     public String getLenguajeDominante() {return lenguajeDominante;}
     public void setLenguajeDominante(String lenguajeDominante) {this.lenguajeDominante = lenguajeDominante;}
+    public void mostrarDatos(){
+        super.mostrarDatos();
+        System.out.println("Lenguaje dominante: "+this.getLenguajeDominante()
+                +"\nLíneas de código/hora: "+this.getLineasDeCodigoPorHora());
+    }
 
 
     public Programador(){
