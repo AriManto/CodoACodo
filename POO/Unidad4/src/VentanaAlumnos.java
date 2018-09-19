@@ -1,9 +1,8 @@
-import sun.plugin2.util.ColorUtil;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.applet.*;
 
 public class VentanaAlumnos extends JFrame {
     public VentanaAlumnos(){
@@ -16,6 +15,7 @@ public class VentanaAlumnos extends JFrame {
     }
     public void agregarComponentes(){
         JPanel panel = new JPanel();
+        panel.setBackground(new Color(177, 229, 255));
         GridBagConstraints c = new GridBagConstraints();
         panel.setLayout(new GridBagLayout());
         this.add (panel);
@@ -24,6 +24,7 @@ public class VentanaAlumnos extends JFrame {
         etNombre.setFont (new Font("Calibri", Font.BOLD, 26));
         etApellido.setFont (new Font("Calibri", Font.BOLD, 26));
         //Etiquetas
+
         //Nombre
         c.anchor = GridBagConstraints.LINE_END; //Alinear a derecha
         c.insets = new Insets(0,10,0,10); //Separación "padding" de los componentes,
@@ -56,8 +57,9 @@ public class VentanaAlumnos extends JFrame {
         ImageIcon icono= new ImageIcon(getClass().getResource("/iconoAlumnos.jpg"));
         btnAceptar.setIcon(new ImageIcon(icono.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
         btnAceptar.setFont(new Font("Impact", Font.PLAIN, 30));
+        btnAceptar.setForeground(new Color(255,255,255));
         btnAceptar.setOpaque(true);
-        btnAceptar.setBackground(new Color(192, 232, 237)); //Color de botón en RGB
+        btnAceptar.setBackground(new Color(46, 71, 191)); //Color de botón en RGB
         //Listener del botón
         btnAceptar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){

@@ -16,20 +16,24 @@ public class VentanaFlores extends JFrame {
         JPanel panel = new JPanel();
         GridBagConstraints c = new GridBagConstraints();
         panel.setLayout(new GridBagLayout());
+        panel.setBackground(new Color(255, 220, 208));
         this.add (panel);
         //Etiqueta flores
         JLabel etFlores = new JLabel ("Flores:");
-        c.anchor = GridBagConstraints.EAST;
+        c.anchor = GridBagConstraints.CENTER;
         c.weightx=1;
         c.weighty=1;
         c.insets = new Insets(0,10,0,10); //Padding horizontal de 10px
         c.gridx = 0;
         c.gridy = 0;
+        etFlores.setFont (new Font("Georgia", Font.BOLD, 30));
+        etFlores.setForeground(new Color(255, 70, 94));
         panel.add(etFlores,c);
         //Lista desplegable
         JComboBox<String> listaFlores = new JComboBox<>();
         listaFlores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[]{"Margarita", "Rosa", "Jazmín",
                 "Lavanda", "Orquídea", "Violeta"}));
+        c.fill=GridBagConstraints.HORIZONTAL;
         c.anchor = GridBagConstraints.WEST;
         c.gridx = 1;
         c.gridy = 0;
@@ -39,9 +43,10 @@ public class VentanaFlores extends JFrame {
         //Oyente botón
         btnAceptar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                setTitle(listaFlores.getSelectedItem().toString());
+                setTitle("~~~~~~~"+listaFlores.getSelectedItem().toString().toUpperCase()+"~~~~~~~");
             }
         });
+        c.fill=GridBagConstraints.NONE;
         c.anchor = GridBagConstraints.NORTH;
         c.gridwidth = 2;
         c.gridx = 0;
