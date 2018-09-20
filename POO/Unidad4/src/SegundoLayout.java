@@ -8,7 +8,7 @@ public class SegundoLayout extends JFrame {
         setSize (600,300);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLocationRelativeTo(null); //Centrar la ventana
+        setLocationRelativeTo(null); //Centrar la ventana
         agregarComponentes();
     }
     public void agregarComponentes() {

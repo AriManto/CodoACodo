@@ -19,14 +19,14 @@ public class Paridad extends JFrame {
         JPanel panel = new JPanel();
         panel.setLayout(new GridBagLayout());
         this.add(panel);
-        panel.setBackground(new Color(34, 34, 34));
+        panel.setBackground(new Color(89,91,93));
         //-----
         //Campo para ingresar numero
         JTextField campoNumero = new JTextField();
-        campoNumero.setBackground(Color.lightGray);
+        campoNumero.setBackground(new Color(175, 177, 179));
         campoNumero.setFont(new Font("Tahoma", Font.BOLD, 20));
         c.fill=GridBagConstraints.HORIZONTAL;
-        c.insets = new Insets(10, 20, 10, 20);
+        c.insets = new Insets(20, 20, 0, 20);
         c.ipady=16;
         c.weightx = 1;
         c.weighty = 1;
@@ -36,10 +36,13 @@ public class Paridad extends JFrame {
         //-----
         //Etiqueta de error
         JLabel etError = new JLabel();
-        etError.setForeground(new Color(199,0,0));
+        etError.setForeground(new Color(255, 252, 221));
+        c.insets = new Insets(10, 20, 10, 20);
         c.gridx=0;
         c.gridy=1;
-        c.weighty=1;
+        c.weighty=0;
+        etError.setMinimumSize(new Dimension(208,22));   //Fija el tamaño de la etiqueta para que no varíe
+        etError.setPreferredSize(new Dimension(208,22)); //cuando su contenido es vacío
         panel.add(etError,c);
         //-----
         //Botón
@@ -47,6 +50,7 @@ public class Paridad extends JFrame {
 //        btn.setBackground(new Color(243, 153, 60));
         btn.setFont(new Font("Tahoma", Font.BOLD, 16));
         btn.setForeground(Color.BLUE);
+        c.insets = new Insets(10, 20, 20, 20);
         c.ipady=50;
         c.gridx=0;
         c.gridy=2;
