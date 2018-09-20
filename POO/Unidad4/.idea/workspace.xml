@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f42113-3f28-4470-bca5-6728c54ded84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Paridad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad 1 y 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad 1 y 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sumador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/Formulario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unidad4/Formulario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formulario.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="Actividad Obligatoria - Unidad 4 - Parte1 - ArielManto.docx" />
@@ -76,19 +71,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="12656" />
+          <entry key="java" value="16371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12656" />
+          <entry key="JAVA" value="16371" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="48" />
           <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
@@ -96,18 +91,44 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Paridad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="-193">
               <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sumador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2048#2049#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VentanaFlores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/PrimerLayout.java" />
         <option value="$PROJECT_DIR$/src/Formulario.java" />
         <option value="$PROJECT_DIR$/src/Paridad.java" />
+        <option value="$PROJECT_DIR$/src/Sumador.java" />
       </list>
     </option>
   </component>
@@ -188,7 +210,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537383339734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537406535968" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unidad3" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -209,14 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Paridad">
-    <configuration name="Flores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Flores" />
-      <module name="Unidad4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sumador">
     <configuration name="Formulario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Formulario" />
       <module name="Unidad4" />
@@ -245,20 +260,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sumador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sumador" />
+      <module name="Unidad4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Flores" />
       <item itemvalue="Application.PrimerLayout" />
       <item itemvalue="Application.SegundoLayout" />
       <item itemvalue="Application.Formulario" />
       <item itemvalue="Application.Paridad" />
+      <item itemvalue="Application.Sumador" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sumador" />
         <item itemvalue="Application.Paridad" />
         <item itemvalue="Application.Formulario" />
         <item itemvalue="Application.PrimerLayout" />
         <item itemvalue="Application.SegundoLayout" />
-        <item itemvalue="Application.Flores" />
       </list>
     </recent_temporary>
   </component>
@@ -307,10 +329,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -323,7 +345,7 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49781182" weight="0.3263965" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49840087" visible="true" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49840087" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3286334" />
@@ -480,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VentanaFlores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Formulario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-627">
@@ -544,12 +556,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/VentanaFlores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Paridad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="-193">
           <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sumador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
           </folding>
         </state>
       </provider>
