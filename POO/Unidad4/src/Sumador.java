@@ -1,5 +1,5 @@
 import javax.swing.*;
-import javax.swing.border.TitledBorder;
+import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -10,7 +10,7 @@ public class Sumador extends JFrame{
         setTitle("Sumador");
         setSize(312, 260);
         setResizable(false);
-//        setUndecorated(true);
+        setUndecorated(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null); //Centrar la ventana
         agregarComponentes();
@@ -99,6 +99,7 @@ public class Sumador extends JFrame{
         panelInterno.add(campoNum2,c);
         //Result
         JTextField campoResult = new JTextField();
+        campoResult.setEditable(false);
         c.insets = new Insets(7,0,5,10);
         c.gridx=1;
         c.gridy=2;
