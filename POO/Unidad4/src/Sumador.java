@@ -1,153 +1,158 @@
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class Sumador extends JFrame{
-    public Sumador() {
+public class Sumador {
+    //MÉTODO para crear la interfaz
+    private static void crearVentana() {
         //Opciones básicas
-        setTitle("Sumador");
-        setSize(312, 260);
-        setResizable(false);
-        setUndecorated(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLocationRelativeTo(null); //Centrar la ventana
-        agregarComponentes();
+        JFrame ventana = new JFrame("Sumador");
+        ventana.setTitle("Sumador");
+        ventana.setSize(317, 262); //317,262
+        ventana.setResizable(false);
+//        ventana.setUndecorated(true);
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setLocationRelativeTo(null); //Centrar la ventana
+        Paneles panelExterno = new Paneles();
+        ventana.add(panelExterno);
+        ventana.setVisible(true);
     }
-    public void agregarComponentes(){
-        GridBagConstraints c = new GridBagConstraints();
+
+    //MÉTODO MAIN
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> crearVentana()); //GUI en un single thread, para evitar problemas de sincronización
+    }
+}
+class Paneles extends JPanel{
+    GridBagConstraints gc = new GridBagConstraints();
+    public void posicionCelda(int x, int y){ //
+        gc.gridx=x;
+        gc.gridy=y;
+    }
+    //Polimorfismo, para más opciones
+    public void posicionCelda(int x, int y, double pesox, double pesoy){
+        gc.gridx=x;
+        gc.gridy=y;
+        gc.weightx=pesox;
+        gc.weighty=pesoy;
+    }
+    //Constructor
+    public Paneles(){
         //Panel Externo--------------
-        JPanel panelExterno = new JPanel(new GridBagLayout());
-        c.insets = new Insets(15,15,15,15);
-        panelExterno.setBackground(new Color(236, 233, 216));
-        panelExterno.setBorder(BorderFactory.createLineBorder(new Color(223,225,247),5));
-        this.add (panelExterno);
+        this.setBackground(new Color(236, 233, 216));
+        this.setBorder(BorderFactory.createLineBorder(new Color(223, 225, 247), 5, true));
+        System.out.println(this.getInsets());
+        this.setLayout(new GridBagLayout());
+        //----------------- Botón Exit
+        JButton exit = new JButton("Exit");
+        gc.insets = new Insets(5, 5, 5, 12);
+        gc.anchor = GridBagConstraints.EAST;
+        gc.ipadx = 0;
+        posicionCelda(1,1,1,1); //0,1,1,1
+        gc.fill = GridBagConstraints.NONE;
+        this.add(exit, gc);
+        //Oyente de botón exit
+        exit.addActionListener(e -> System.exit(0));
         //Panel Interno--------------
-        JPanel panelInterno = new JPanel (new GridBagLayout());
-        c.insets = new Insets(12,15,12,15);
+        JPanel panelInterno = new JPanel(new GridBagLayout());
         panelInterno.setBackground(new Color(236, 233, 216));
-        c.fill=GridBagConstraints.BOTH;
-        c.weighty=1.9;
-        panelExterno.add(panelInterno,c);
+        gc.fill = GridBagConstraints.BOTH;
+        gc.insets = new Insets(10, 10, 3, 10);
+        gc.gridwidth=2;
+        posicionCelda(0,0,1,1.9);
+        this.add(panelInterno, gc);
+        gc.gridwidth=1;
         //Borde
         TitledBorder titulo = BorderFactory.createTitledBorder("Number Addition");
-        titulo.setTitleColor(new Color(23,100,205));
+        titulo.setTitleColor(new Color(23, 100, 205));
         titulo.setTitleFont(new Font("Tahoma", Font.PLAIN, 11));
         panelInterno.setBorder(titulo);
+        //----------------------
+        //Icono de botones
+//        BufferedImage buttonIcon = null;
+//        try {
+//            buttonIcon = ImageIO.read(getClass().getClassLoader().getResource("btnIcon.png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+        //Botón exit-----------
+
         //-----
-        //Botón exit
-        JButton exit = new JButton("Exit");
-        c.insets = new Insets(0,15,15,15);
-        c.anchor = GridBagConstraints.EAST;
-        c.ipadx = 0;
-        c.gridx=0;
-        c.gridy=1;
-        c.weighty=0.1;
-        c.weightx=1;
-        c.fill=GridBagConstraints.NONE;
-        panelExterno.add(exit,c);
-        //Oyente de botón exit
-        exit.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                System.exit(0);
-            }
-        });
-        //-----
-        //Reseteo alineación
-        c.ipadx = 0;
-        c.insets = new Insets(0,0,0,5);
         //X=0
         //-----Etiquetas
-        c.weightx=0.4;
+        gc.weightx = 0.4;
         //Etiqueta 1
-        JLabel etNum1 = new JLabel("First Number:");
-        c.insets = new Insets(10,10,0,5);
-        c.gridx=0;
-        c.gridy=0;
+        JLabel etNum1 = new JLabel("First Number:", SwingConstants.RIGHT);
+        gc.anchor = GridBagConstraints.EAST;
+        gc.insets = new Insets(10, 10, 0, 0); //10,10,0,5
+        posicionCelda(0,0);
         etNum1.setFont(new Font("Tahoma", Font.PLAIN, 11));
-        panelInterno.add(etNum1,c);
+        panelInterno.add(etNum1, gc);
         //Etiqueta 2
-        JLabel etNum2 = new JLabel("Second Number:");
-        c.insets = new Insets(0,0,0,5);
-        c.gridx=0;
-        c.gridy=1;
+        JLabel etNum2 = new JLabel("Second Number:", SwingConstants.RIGHT);
+        gc.insets = new Insets(0, 0, 0, 0); //0,0,0,5
+        posicionCelda(0,1);
         etNum2.setFont(new Font("Tahoma", Font.PLAIN, 11));
-        panelInterno.add(etNum2,c);
+        panelInterno.add(etNum2, gc);
         //Etiqueta 3
-        JLabel etResult = new JLabel("Result:");
-        c.gridx=0;
-        c.gridy=2;
+        JLabel etResult = new JLabel("Result:", SwingConstants.RIGHT);
+        gc.insets = new Insets(0, 0, 0, 0);
+        posicionCelda(0,2);
         etResult.setFont(new Font("Tahoma", Font.PLAIN, 11));
-        panelInterno.add(etResult,c);
+        panelInterno.add(etResult, gc);
         //X=1------------
         //-----Campos
-        c.weightx=1;
+        gc.weightx = 1;
         //Campo 1
         JTextField campoNum1 = new JTextField();
-        c.insets = new Insets(10,0,0,10);
-        c.fill=GridBagConstraints.HORIZONTAL;
-        c.gridwidth=5;
-        c.gridx=1;
-        c.gridy=0;
-        panelInterno.add(campoNum1,c);
+        gc.insets = new Insets(10, 5, 0, 10);
+        gc.fill = GridBagConstraints.HORIZONTAL;
+        gc.gridwidth = 5;
+        posicionCelda(1,0);
+        panelInterno.add(campoNum1, gc);
         //Campo 2
-        c.insets = new Insets(0,0,0,10);
+        gc.insets = new Insets(0, 5, 0, 10);
         JTextField campoNum2 = new JTextField();
-        c.gridx=1;
-        c.gridy=1;
-        panelInterno.add(campoNum2,c);
+        posicionCelda(1,1);
+        panelInterno.add(campoNum2, gc);
         //Result
         JTextField campoResult = new JTextField();
         campoResult.setEditable(false);
-        c.insets = new Insets(7,0,5,10);
-        c.gridx=1;
-        c.gridy=2;
-        panelInterno.add(campoResult,c);
-        c.fill=GridBagConstraints.NONE; //Reseteo del rellenado
-        c.insets = new Insets(0,0,0,0); //Reseteo padding
-        c.gridwidth=1;
+        gc.insets = new Insets(7, 5, 5, 10);
+        posicionCelda(1,2);
+        panelInterno.add(campoResult, gc);
+        gc.fill = GridBagConstraints.NONE; //Reseteo del rellenado
+        gc.insets = new Insets(0, 0, 0, 0); //Reseteo padding
+        gc.gridwidth = 1;
         //-----Botón Add
         JButton btnAdd = new JButton("Add");
-        c.insets = new Insets(0,0,10,0);
-        c.anchor=GridBagConstraints.WEST;
-        c.gridx=1;
-        c.gridy=3;
-        c.weightx=0.4;
-        panelInterno.add(btnAdd,c);
+        gc.insets = new Insets(0, 5, 10, 0);
+        gc.anchor = GridBagConstraints.WEST;
+        posicionCelda(1,3,0.4,1);
+        panelInterno.add(btnAdd, gc);
         //Oyente botón Add***
-        btnAdd.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                try {
-                    double num1 = Double.parseDouble(campoNum1.getText());
-                    double num2 = Double.parseDouble(campoNum2.getText());
-                    String resultado = Double.toString(num1+num2);
-                    campoResult.setText(resultado);
-                }
-                catch(NumberFormatException er){
-                    campoResult.setText("Error");
-                }
+        btnAdd.addActionListener(e -> { //Expresión Lambda
+            try {
+                double num1 = Double.parseDouble(campoNum1.getText());
+                double num2 = Double.parseDouble(campoNum2.getText());
+                String resultado = Double.toString(num1 + num2);
+                campoResult.setText(resultado);
+            } catch (NumberFormatException er) {
+                campoResult.setText("Error");
             }
         });
         //X=2------------
         //-----Botón Clear
         JButton btnClr = new JButton("Clear");
-        c.anchor=GridBagConstraints.WEST;
-        c.gridx=2;
-        c.gridy=3;
-        c.weightx=1.6;
-        panelInterno.add(btnClr,c);
+        gc.anchor = GridBagConstraints.WEST;
+        gc.insets = new Insets(0, 0, 10, 0);
+        posicionCelda(2,3,1.6,1);
+        panelInterno.add(btnClr, gc);
         //Oyente botón Clear***
-        btnClr.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                campoResult.setText("");
-                campoNum1.setText("");
-                campoNum2.setText("");
-            }
+        btnClr.addActionListener(e -> {
+            campoResult.setText("");
+            campoNum1.setText("");
+            campoNum2.setText("");
         });
-    }
-    public static void main(String[] args) {
-        Sumador ventana = new Sumador();
-        ventana.setVisible(true);
     }
 }
