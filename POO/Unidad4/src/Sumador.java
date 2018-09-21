@@ -41,7 +41,6 @@ class Paneles extends JPanel{
         //Panel Externo--------------
         this.setBackground(new Color(236, 233, 216));
         this.setBorder(BorderFactory.createLineBorder(new Color(223, 225, 247), 5, true));
-        System.out.println(this.getInsets());
         this.setLayout(new GridBagLayout());
         //----------------- Botón Exit
         JButton exit = new JButton("Exit");
