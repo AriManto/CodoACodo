@@ -10,7 +10,7 @@ public class Sumador {
         ventana.setTitle("Sumador");
         ventana.setSize(317, 262); //317,262
         ventana.setResizable(false);
-//        ventana.setUndecorated(true);
+        ventana.setUndecorated(true);  //Para quitarle el borde a la ventana, pero no se puede desplazar
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setLocationRelativeTo(null); //Centrar la ventana
         Paneles panelExterno = new Paneles();
@@ -24,7 +24,7 @@ public class Sumador {
     }
 }
 class Paneles extends JPanel{
-    GridBagConstraints gc = new GridBagConstraints();
+    private GridBagConstraints gc = new GridBagConstraints();
     public void posicionCelda(int x, int y){ //
         gc.gridx=x;
         gc.gridy=y;

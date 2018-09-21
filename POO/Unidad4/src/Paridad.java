@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Paridad extends JFrame {
+    private GridBagConstraints gc = new GridBagConstraints();
     public Paridad() {
         //Opciones básicas
         setTitle("Paridad");
@@ -13,48 +14,53 @@ public class Paridad extends JFrame {
         this.setLocationRelativeTo(null); //Centrar la ventana
         agregarComponentes();
     }
-
+    public void posicionCelda(int x, int y){ //
+        gc.gridx=x;
+        gc.gridy=y;
+    }
+    public void posicionCelda(int x, int y, double pesox, double pesoy){
+        gc.gridx=x;
+        gc.gridy=y;
+        gc.weightx=pesox;
+        gc.weighty=pesoy;
+    }
     public void agregarComponentes() {
-        GridBagConstraints c = new GridBagConstraints();
+
         JPanel panel = new JPanel();
         panel.setLayout(new GridBagLayout());
         this.add(panel);
-        panel.setBackground(new Color(89,91,93));
+        panel.setBackground(new Color(128, 130, 132));
         //-----
         //Campo para ingresar numero
         JTextField campoNumero = new JTextField();
-        campoNumero.setBackground(new Color(175, 177, 179));
+        campoNumero.setBackground(new Color(229, 231, 233));
         campoNumero.setFont(new Font("Tahoma", Font.BOLD, 20));
-        c.fill=GridBagConstraints.HORIZONTAL;
-        c.insets = new Insets(20, 20, 0, 20);
-        c.ipady=16;
-        c.weightx = 1;
-        c.weighty = 1;
-        c.gridx=0;
-        c.gridy=0;
-        panel.add(campoNumero,c);
+        gc.fill=GridBagConstraints.HORIZONTAL;
+        gc.insets = new Insets(20, 20, 0, 20);
+        gc.ipady=16;
+        posicionCelda(0,0,1,1);
+        panel.add(campoNumero,gc);
         //-----
         //Etiqueta de error
         JLabel etError = new JLabel();
         etError.setForeground(new Color(255, 252, 221));
-        c.insets = new Insets(10, 20, 10, 20);
-        c.gridx=0;
-        c.gridy=1;
-        c.weighty=0;
+        gc.insets = new Insets(10, 20, 10, 20);
+        posicionCelda(0,1,0,1);
         etError.setMinimumSize(new Dimension(208,22));   //Fija el tamaño de la etiqueta para que no varíe
         etError.setPreferredSize(new Dimension(208,22)); //cuando su contenido es vacío
-        panel.add(etError,c);
+        panel.add(etError,gc);
         //-----
         //Botón
         JButton btn = new JButton("Comprobar Paridad");
 //        btn.setBackground(new Color(243, 153, 60));
         btn.setFont(new Font("Tahoma", Font.BOLD, 16));
         btn.setForeground(Color.BLUE);
-        c.insets = new Insets(10, 20, 20, 20);
-        c.ipady=50;
-        c.gridx=0;
-        c.gridy=2;
-        panel.add(btn,c);
+        gc.insets = new Insets(10, 20, 20, 20);
+        gc.ipady=50;
+        posicionCelda(0,2);
+        gc.gridx=0;
+        gc.gridy=2;
+        panel.add(btn,gc);
         //Oyente de botón
         btn.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
