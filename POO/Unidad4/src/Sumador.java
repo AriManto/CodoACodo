@@ -25,19 +25,19 @@ public class Sumador {
 }
 class Paneles extends JPanel{
     private GridBagConstraints gc = new GridBagConstraints();
-    public void posicionCelda(int x, int y){ //
+    private void posicionCelda(int x, int y){ //
         gc.gridx=x;
         gc.gridy=y;
     }
     //Polimorfismo, para más opciones
-    public void posicionCelda(int x, int y, double pesox, double pesoy){
+    private void posicionCelda(int x, int y, double pesox, double pesoy){
         gc.gridx=x;
         gc.gridy=y;
         gc.weightx=pesox;
         gc.weighty=pesoy;
     }
     //Constructor
-    public Paneles(){
+    Paneles(){
         //Panel Externo--------------
         this.setBackground(new Color(236, 233, 216));
         this.setBorder(BorderFactory.createLineBorder(new Color(223, 225, 247), 5, true));
