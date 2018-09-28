@@ -8,12 +8,12 @@ public class Cuenta {
     public double getCantidad() {return cantidad;}
     public void setCantidad(double cantidad) {this.cantidad = cantidad;}
 
+
     public String toString(){
         String cuenta = "Esta cuenta pertenece a "+this.getTitular()+
                 " y posee $"+Double.toString(this.getCantidad());
         return cuenta;
     }
-
     private void ingresar(double cantidad){
         if (cantidad>=0){
             this.setCantidad(this.getCantidad()+cantidad);
@@ -27,6 +27,8 @@ public class Cuenta {
         }
         System.out.println("Retiró $"+cantidad+", saldo $"+this.getCantidad());
     }
+
+
     //Constructores. Titular es obligatorio.
     public Cuenta (String titular){
         this.setTitular(titular);
