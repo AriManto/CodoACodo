@@ -4,6 +4,7 @@ public class Electrodomesticos {
     private char consumoEnergetico;
     private double peso;
 
+
     //Getters y setters
     public Electrodomesticos setPrecioBase(double precioBase) {
         this.precioBase = precioBase;
@@ -25,6 +26,7 @@ public class Electrodomesticos {
     public String getColor() {return color;}
     public char getConsumoEnergetico() {return consumoEnergetico;}
     public double getPeso() {return peso;}
+
 
     //Métodos
     private void comprobarConsumoEnergetico(char letra){
@@ -87,6 +89,7 @@ public class Electrodomesticos {
         this.peso=peso;
     }
 
+
     public static void main(String[] args) {
         Electrodomesticos electro = new Electrodomesticos(10000,"negro",'a',20);
         //Salida datos
@@ -107,8 +110,4 @@ public class Electrodomesticos {
                 tele.getColor(), tele.getConsumoEnergetico(),tele.getPeso(),tele.getResolucion(),tele.isSintonizadorTDT());
         System.out.printf("Precio final: %.2f\n",tele.precioFinal());
     }
-
-
-
-
 }

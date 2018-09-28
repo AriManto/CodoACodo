@@ -9,6 +9,7 @@ public class Television extends Electrodomesticos {
     public boolean isSintonizadorTDT() {return sintonizadorTDT;}
     public void setSintonizadorTDT(boolean sintonizadorTDT) {this.sintonizadorTDT = sintonizadorTDT;}
 
+
     public double precioFinal(){
         double extraResolucion = 1;
         double extraSintonizador = 0;
@@ -21,6 +22,8 @@ public class Television extends Electrodomesticos {
         double precioSuper=super.precioFinal();
         return (precioSuper*extraResolucion)+extraSintonizador;
     }
+
+
     //Constructores
     public Television(){
         super();
