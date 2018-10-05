@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f42113-3f28-4470-bca5-6728c54ded84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/Sumador$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/Sumador$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unidad4/Sumador$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formulario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paridad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paridad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimerLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegundoLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegundoLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sumador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sumador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="Actividad Obligatoria - Unidad 4 - Parte1 - ArielManto.docx" />
@@ -65,25 +58,25 @@
     <session id="-403934314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="21338" />
+          <entry key="java" value="21365" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21338" />
+          <entry key="JAVA" value="21365" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -91,7 +84,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="form" value="3" />
-          <entry key="java" value="81" />
+          <entry key="java" value="84" />
           <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
@@ -100,18 +93,18 @@
           <entry key="CLASS" value="1" />
           <entry key="GUI_DESIGNER_FORM" value="3" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="84" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Paridad.java">
+        <entry file="file://$PROJECT_DIR$/src/Sumador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="391">
+              <caret line="56" column="61" lean-forward="true" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/PrimerLayout.java" />
         <option value="$PROJECT_DIR$/src/SegundoLayout.java" />
         <option value="$PROJECT_DIR$/src/Formulario.java" />
-        <option value="$PROJECT_DIR$/src/Sumador.java" />
         <option value="$PROJECT_DIR$/src/Paridad.java" />
+        <option value="$PROJECT_DIR$/src/Sumador.java" />
       </list>
     </option>
   </component>
@@ -174,9 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,14 +175,27 @@
               <item name="Unidad4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Unidad4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Unidad4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unidad4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unidad4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unidad4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sumador.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537502313661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538360248603" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unidad3" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -297,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537248818784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updates">
+      <created>1537753931938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537753931939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -311,8 +322,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34682712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -324,10 +336,10 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49781182" weight="0.3263965" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49781182" weight="0.3253796" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4978678" weight="0.324295" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32968238" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -422,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="216" selection-start-line="216" selection-end-line="216" />
-          <folding>
-            <element signature="e#6758#6759#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,9 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,9 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,10 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18819#0" expanded="true" />
-            <element signature="e#1994#2122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,23 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sumador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrimerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,28 +541,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sumador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#posicionCelda#0;class#Paneles#0" />
-            <element signature="method#posicionCelda#1;class#Paneles#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Paridad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="17">
           <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sumador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="61" lean-forward="true" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
