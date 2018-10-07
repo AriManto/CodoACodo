@@ -1,11 +1,12 @@
 public class Ejercicio3 {
     public static void main(String[] args) {
         try{
-        Exception excepcion = new Exception("Prueba");
+            throw new Exception("Excepcion de prueba");
 
-        }
-        catch (excepcion e){
-            System.out.println(e);
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        } finally {
+            System.out.println("Fin del bloque try-catch");
         }
     }
 }
