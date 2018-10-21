@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e1c73b2-a1f4-4d81-9355-abba94081afa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoCongelado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoFresco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoRefrigerado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tecnicas de Programacion/Unidad6.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +25,20 @@
     <session id="-600447818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -44,7 +54,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Electrodomesticos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1904">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="935" />
-    <option name="width" value="992" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,8 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +119,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -172,9 +192,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="935" y="0" width="992" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.66201717" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.6770386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -228,13 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Electrodomesticos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lavarropas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -246,6 +260,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Electrodomesticos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
