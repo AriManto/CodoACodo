@@ -25,12 +25,12 @@ public class Sumador {
 }
 class Paneles extends JPanel{
     private GridBagConstraints gc = new GridBagConstraints();
-    private void posicionCelda(int x, int y){ //
+    private void posicionarCelda(int x, int y){ //
         gc.gridx=x;
         gc.gridy=y;
     }
     //Polimorfismo, para más opciones
-    private void posicionCelda(int x, int y, double pesox, double pesoy){
+    private void posicionarCelda(int x, int y, double pesox, double pesoy){
         gc.gridx=x;
         gc.gridy=y;
         gc.weightx=pesox;
@@ -47,7 +47,7 @@ class Paneles extends JPanel{
         gc.insets = new Insets(5, 5, 5, 12);
         gc.anchor = GridBagConstraints.EAST;
         gc.ipadx = 0;
-        posicionCelda(1,1,1,1); //0,1,1,1
+        posicionarCelda(1,1,1,1); //0,1,1,1
         gc.fill = GridBagConstraints.NONE;
         this.add(exit, gc);
         //Oyente de botón exit
@@ -58,7 +58,7 @@ class Paneles extends JPanel{
         gc.fill = GridBagConstraints.BOTH;
         gc.insets = new Insets(10, 10, 3, 10);
         gc.gridwidth=2;
-        posicionCelda(0,0,1,1.9);
+        posicionarCelda(0,0,1,1.9);
         this.add(panelInterno, gc);
         gc.gridwidth=1;
         //Borde
@@ -84,19 +84,19 @@ class Paneles extends JPanel{
         JLabel etNum1 = new JLabel("First Number:", SwingConstants.RIGHT);
         gc.anchor = GridBagConstraints.EAST;
         gc.insets = new Insets(10, 10, 0, 0); //10,10,0,5
-        posicionCelda(0,0);
+        posicionarCelda(0,0);
         etNum1.setFont(new Font("Tahoma", Font.PLAIN, 11));
         panelInterno.add(etNum1, gc);
         //Etiqueta 2
         JLabel etNum2 = new JLabel("Second Number:", SwingConstants.RIGHT);
         gc.insets = new Insets(0, 0, 0, 0); //0,0,0,5
-        posicionCelda(0,1);
+        posicionarCelda(0,1);
         etNum2.setFont(new Font("Tahoma", Font.PLAIN, 11));
         panelInterno.add(etNum2, gc);
         //Etiqueta 3
         JLabel etResult = new JLabel("Result:", SwingConstants.RIGHT);
         gc.insets = new Insets(0, 0, 0, 0);
-        posicionCelda(0,2);
+        posicionarCelda(0,2);
         etResult.setFont(new Font("Tahoma", Font.PLAIN, 11));
         panelInterno.add(etResult, gc);
         //X=1------------
@@ -107,18 +107,18 @@ class Paneles extends JPanel{
         gc.insets = new Insets(10, 5, 0, 10);
         gc.fill = GridBagConstraints.HORIZONTAL;
         gc.gridwidth = 5;
-        posicionCelda(1,0);
+        posicionarCelda(1,0);
         panelInterno.add(campoNum1, gc);
         //Campo 2
         gc.insets = new Insets(0, 5, 0, 10);
         JTextField campoNum2 = new JTextField();
-        posicionCelda(1,1);
+        posicionarCelda(1,1);
         panelInterno.add(campoNum2, gc);
         //Result
         JTextField campoResult = new JTextField();
         campoResult.setEditable(false);
         gc.insets = new Insets(7, 5, 5, 10);
-        posicionCelda(1,2);
+        posicionarCelda(1,2);
         panelInterno.add(campoResult, gc);
         gc.fill = GridBagConstraints.NONE; //Reseteo del rellenado
         gc.insets = new Insets(0, 0, 0, 0); //Reseteo padding
@@ -127,7 +127,7 @@ class Paneles extends JPanel{
         JButton btnAdd = new JButton("Add");
         gc.insets = new Insets(0, 5, 10, 0);
         gc.anchor = GridBagConstraints.WEST;
-        posicionCelda(1,3,0.4,1);
+        posicionarCelda(1,3,0.4,1);
         panelInterno.add(btnAdd, gc);
         //Oyente botón Add***
         btnAdd.addActionListener(e -> { //Expresión Lambda
@@ -145,7 +145,7 @@ class Paneles extends JPanel{
         JButton btnClr = new JButton("Clear");
         gc.anchor = GridBagConstraints.WEST;
         gc.insets = new Insets(0, 0, 10, 0);
-        posicionCelda(2,3,1.6,1);
+        posicionarCelda(2,3,1.6,1);
         panelInterno.add(btnClr, gc);
         //Oyente botón Clear***
         btnClr.addActionListener(e -> {

@@ -1,9 +1,0 @@
-Indique cuál de las siguientes afirmaciones son correctas:
-a). Una superclase es una clase que es implementada por otra.*
-b). Una subclase es una clase que puede servir de base para otra*
-clase.
-c). La herencia está dada por la relación “es un”. *
-d). La herencia nos permite heredar, pero no reutilizar en un nuevo
-contexto clases que fueron escritas previamente.
-
-A,B,C

@@ -1,4 +1,4 @@
-package gestionproductos;
+package com.arielmanto.gestionproductos;
 
 public class ProductoFresco extends Producto {
     private String fechaEnvasado;
@@ -19,7 +19,7 @@ public class ProductoFresco extends Producto {
         this.paisOrigen="";
     }
 
-    ProductoFresco(String fechaCad, String numLote, String fechaEnvasado, String paisOrigen){
+    ProductoFresco(String fechaCad, int numLote, String fechaEnvasado, String paisOrigen){
         super(fechaCad, numLote);
         this.fechaEnvasado = fechaEnvasado;
         this.paisOrigen = paisOrigen;

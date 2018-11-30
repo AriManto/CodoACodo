@@ -1,4 +1,4 @@
-package gestionproductos;
+package com.arielmanto.gestionproductos;
 
 public class ProductoCongelado extends Producto {
     private float tempCongelacion;
@@ -14,7 +14,7 @@ public class ProductoCongelado extends Producto {
         super();
         this.tempCongelacion=0;
     }
-    ProductoCongelado(String fechaCad, String numLote, float tempCongelacion){
+    ProductoCongelado(String fechaCad, int numLote, float tempCongelacion){
         super(fechaCad,numLote);
         this.tempCongelacion=tempCongelacion;
     }

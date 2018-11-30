@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e1c73b2-a1f4-4d81-9355-abba94081afa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoCongelado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoFresco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoRefrigerado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tecnicas de Programacion/Unidad6.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/Ejercicio4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoCongelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoCongelado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoFresco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoFresco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoRefrigerado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoRefrigerado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoCongelado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoFresco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoRefrigerado.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +32,10 @@
     <session id="-600447818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,11 +61,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Electrodomesticos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
+            <state relative-caret-position="831">
               <caret line="112" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
@@ -98,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,9 +127,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,9 +200,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6770386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6761488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Electrodomesticos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
+        <state relative-caret-position="831">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>

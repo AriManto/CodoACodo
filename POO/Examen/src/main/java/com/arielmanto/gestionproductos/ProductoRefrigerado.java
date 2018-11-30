@@ -1,4 +1,4 @@
-package gestionproductos;
+package com.arielmanto.gestionproductos;
 
 public class ProductoRefrigerado extends Producto{
     private String codOrgSupervisor;
@@ -14,7 +14,7 @@ public class ProductoRefrigerado extends Producto{
         super();
         this.codOrgSupervisor = "";
     }
-    ProductoRefrigerado(String fechaCad, String numLote, String codigo){
+    ProductoRefrigerado(String fechaCad, int numLote, String codigo){
         super(fechaCad, numLote);
         this.codOrgSupervisor = codigo;
     }

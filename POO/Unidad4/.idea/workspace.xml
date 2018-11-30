@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f42113-3f28-4470-bca5-6728c54ded84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/Ejercicio4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoCongelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoCongelado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoFresco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoFresco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoRefrigerado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoRefrigerado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoCongelado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoFresco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoRefrigerado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sumador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sumador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tecnicas de Programacion/Unidad6.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="Actividad Obligatoria - Unidad 4 - Parte1 - ArielManto.docx" />
@@ -60,25 +78,25 @@
     <session id="-403934314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="21365" />
+          <entry key="java" value="21367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21365" />
+          <entry key="JAVA" value="21367" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -86,7 +104,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="form" value="3" />
-          <entry key="java" value="89" />
+          <entry key="java" value="93" />
           <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
@@ -95,13 +113,35 @@
           <entry key="CLASS" value="1" />
           <entry key="GUI_DESIGNER_FORM" value="3" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="93" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sumador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SegundoLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,7 +198,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,10 +220,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538371050689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540166534850" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unidad3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,8 +354,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35021323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35394457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrimerLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1115">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Formulario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -528,23 +562,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Paridad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1333">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SegundoLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/PrimerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Paridad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SegundoLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sumador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="109">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />

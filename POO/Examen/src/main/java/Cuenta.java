@@ -19,6 +19,7 @@ public class Cuenta {
         this.titular = titular;
         this.cantidad = cantidad;
     }
+
     public void ingresar(double cantidad){
         if (cantidad>=0){
             this.cantidad += cantidad;
@@ -42,9 +43,8 @@ public class Cuenta {
         System.out.println(cuenta1.toString());
         Cuenta cuenta2 = new Cuenta("Jaime Rodríguez",3000);
         System.out.println(cuenta2.toString());
-        cuenta2.retirar(800);
+        cuenta2.retirar(4000);
         System.out.println(cuenta2.toString());
-
     }
 
 }

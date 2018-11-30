@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67d67db-9b6a-47b0-892c-b9b89c24eb9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/Ejercicio4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/ComparadorMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoCongelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoCongelado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoFresco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoFresco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/src/main/java/gestionproductos/ProductoRefrigerado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/src/main/java/com/arielmanto/gestionproductos/ProductoRefrigerado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/ComparadorMayor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/target/classes/Ejercicio5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoCongelado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoFresco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/target/classes/gestionproductos/ProductoRefrigerado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +34,22 @@
     <session id="-796961322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,16 +66,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -104,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,18 +138,22 @@
               <item name="Unidad6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Unidad6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unidad6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio4.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538953379769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540164561012" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -195,9 +221,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -245,15 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -264,6 +282,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,14 +1,14 @@
-package gestionproductos;
+package com.arielmanto.gestionproductos;
 
 
 public class Producto{
     private String fechaCaducidad;
-    private String numLote;
+    private int numLote;
 
     public String getFechaCaducidad() {return fechaCaducidad;}
     public void setFechaCaducidad(String fechaCaducidad) {this.fechaCaducidad = fechaCaducidad;}
-    public String getNumLote() {return numLote;}
-    public void setNumLote(String numLote) {this.numLote = numLote;}
+    public int getNumLote() {return numLote;}
+    public void setNumLote(int numLote) {this.numLote = numLote;}
 
     public String toString(){
         return "-----\nFecha de caducidad: "+ fechaCaducidad + "\nNº de Lote: " + numLote;
@@ -16,10 +16,10 @@ public class Producto{
 
     Producto(){
         this.fechaCaducidad="";
-        this.numLote="";
+        this.numLote=0;
     }
 
-    Producto(String fechaCaducidad, String numLote){
+    Producto(String fechaCaducidad, int numLote){
         this.fechaCaducidad=fechaCaducidad;
         this.numLote=numLote;
     }
